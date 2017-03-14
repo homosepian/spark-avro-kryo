@@ -1,0 +1,9 @@
+{"namespace": "com.test.model",
+  "type": "record",
+  "name": "MyCustomClass",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "id",  "type": ["int", "null"]},
+    {"name": "custom_field", "type": ["string", "null"]}
+  ]
+}
